@@ -838,9 +838,17 @@ header .header__search > a {
 }
 
 .product__card p {
+  display: flex;
+  align-items: center;
   margin-top: 10px;
   font-size: 10px;
   font-weight: 600;
+}
+
+.product__card p > img {
+  height: 10px;
+  width: 10px;
+  object-fit: contain;
 }
 
 /* footer */
